@@ -16,6 +16,11 @@ public class MathUtilLive {
     public static void main(String[] args) {
         long result = MathUtil.getFactorial(5);
         System.out.println("5! = 120, actual = " + result);
+        //Them code sau lan dau tien lam chuyen day
+        
+        System.out.println("6! = 720, actual = " + MathUtil.getFactorial(6));
+        System.out.println("5! = 120, actual = " + result);
+
     }
-    
+
 }
